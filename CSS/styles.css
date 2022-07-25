@@ -1,0 +1,265 @@
+
+
+/* HEADER */
+
+header {
+    background-image: url("/images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.h-logo img {
+    margin-top: 100px;
+    width: 100px;
+}
+.h-title h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 0;
+    padding: 0 20px;
+}
+.h-desc p {
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+    padding: 0 20px;
+}
+.h-btn-left, .h-btn-right {
+    font-family: 'Bai Jamjuree';
+    height: 45px;
+    width: 190px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all ease-in-out 0.2s;
+}
+.h-button {
+    margin-top: 40px;
+}
+.h-btn-left {
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 10px;
+    border-bottom: 3px solid #1e9e89;
+}
+.h-btn-right {
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 3px solid #5063dc;
+}
+.h-btn-left:hover {
+    background-color: #5fcbbb;
+    cursor: pointer;
+}
+.h-btn-right:hover {
+    cursor: pointer;
+    background-color: #8796fe;
+}
+
+/* S1 */
+
+.s1 {
+    margin-top: 150px;
+}
+.s1-title, .s1-desc {
+    text-align: center;
+}
+.s1-title h1 {
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+.s1-desc p {
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+.s1-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+.s1-container-right {
+    line-height: 30px;
+    margin-left: 90px;
+}
+.s1-container-right h2 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+.s1-container-right p {
+    color: hsl(201, 11%, 66%);
+    margin-top: 8px;
+}
+
+/* S2 */
+
+.s2 {
+    margin-top: 150px;
+}
+.s2-title, .s2-desc {
+    text-align: center;
+}
+.s2-title h1 {
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.s2-desc p {
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+.s2-img {
+    margin-top: 90px;
+    text-align: center;
+}
+
+/* S3 */
+
+.s3 {
+    margin-top: 50px;
+}
+.s3-title, .s3-desc {
+    text-align: center;
+}
+.s3-desc {
+    margin-bottom: 60px;
+}
+.s3-title h1 {
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.s3-desc p {
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+.s3-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+}
+.s3-container h2 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    margin-top: 40px
+}
+.s3-container p {
+    color: hsl(201, 11%, 66%);
+}
+
+/* S4 */
+
+.s4-img {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.s4-img img {
+    padding: 20px;
+}
+
+/* S5 */
+
+.s5 {
+    margin-top: 150px;
+}
+.s5-title, .s5-desc {
+    text-align: center;
+}
+.s5-title h1 {
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.s5-desc p {
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+.s5-button {
+    text-align: center;
+}
+.s5-btn-left, .s5-btn-right {
+    font-family: 'Bai Jamjuree';
+    height: 45px;
+    width: 190px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all ease-in-out 0.2s;
+}
+.s5-button {
+    margin-top: 40px;
+}
+.s5-btn-left {
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 10px;
+    border-bottom: 3px solid #1e9e89;
+}
+.s5-btn-right {
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 3px solid #5063dc;
+}
+.s5-btn-left:hover {
+    background-color: #5fcbbb;
+    cursor: pointer;
+}
+.s5-btn-right:hover {
+    cursor: pointer;
+    background-color: #8796fe;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin-top: 150px;
+    background-color: #f4f6f9;
+    padding: 10px;
+}
+.f-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.f-logo img {
+    width: 60px;
+    margin-right: 40px;
+}
+ul {
+    list-style: none;
+    column-count: 3;
+    line-height: 40px;
+    padding: 0;
+    color: hsl(210, 10%, 33%);
+    font-weight: 500;
+}
+a:hover {
+    color:hsl(171, 66%, 44%);
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+.f-list {
+    width: 500px;
+}
+.f-icons-rs img {
+    margin-left: 18px;
+}
